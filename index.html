@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Editor de texto - online</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/menu.css">
+</head>
+<body class="body">
+
+    <header class="header">
+        <img class="header__logo" src="./assets/images/logo-alura.svg" alt="Logo da Alura.">
+
+        <input class="header__input__search" type="search" placeholder="Busque por algo">
+
+        <div class="header__user">
+            <img class="user__photo" src="./assets/images/user.jpg" alt="Usuário do site.">
+            <p class="user__name">Fernando</p>
+        </div>
+        
+        <div class="wrapper__buttons">
+            <button class="header__btn header__btn-search" aria-label="Pesquisar"><img src="./assets/icons/search.svg" alt=""></button>
+            <button id="btn-menu" class="header__btn header__btn-menu" aria-label="Menu"><img src="./assets/icons/menu-hamburgem.svg" alt=""></button>
+        </div>
+    </header>
+    
+    <section id="menu" class="menu">
+        <nav class="menu__nav">
+            <a class="menu__nav_link href="#">
+                <img class="menu__nav__img" src="./assets/icons/code.svg" alt="Código.">
+                Editor de códigos
+            </a>
+            <a class="menu__nav_link href="#">
+                <img class="menu__nav__img" src="./assets/icons/comunity.svg" alt="Comunidade.">
+                Comunidade
+            </a>
+
+            <hr/>
+            
+            <div class="header__user">
+                <img class="user__photo" src="./assets/images/user.jpg" alt="Usuário do site.">
+                <p class="user__name">Fernando</p>
+            </div>
+        </nav>
+    </section>
+    
+    <script src="./js/menu-hambuger.js"></script>
+</body>
+</html>

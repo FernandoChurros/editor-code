@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --bg-color: #051D3B;
+    --bg-menus: rgba(255, 255, 255, 0.16);
+    --font-main: 'Inter', sans-serif;
+    --color-hover: #5081FB14;
+    --color-pressed: #5081FB29;
+}
+
+.body {
+    background-color: var(--bg-color);
+    margin: 1rem 1rem 40px 1rem;
+    color: #FFF;
+    box-sizing: border-box;
+    font-family: var(--font-main);
+}
+
+hr {
+    width: 100%;
+}
