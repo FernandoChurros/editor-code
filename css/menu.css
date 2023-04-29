@@ -1,6 +1,6 @@
 .menu {
     display: none;
-    background-color: var(--bg-menus);
+    background-color: #2D415B;
     padding: 24px;
     border-radius: 8px;
     margin-top: 24px;
@@ -12,6 +12,10 @@
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+}
+
+.menu__nav-desktop {
+    display: none;
 }
 
 .menu__nav_link {
@@ -39,5 +43,11 @@
 @media screen and (min-width: 1024px) {
     .menu {
         width: 35%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .menu__nav-desktop {
+        display: flex;
     }
 }

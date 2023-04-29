@@ -62,3 +62,8 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+textarea {
+	outline: none;
+	resize: none;
+}

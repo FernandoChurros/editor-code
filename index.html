@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/code.css">
 </head>
 <body class="body">
 
@@ -49,6 +50,30 @@
             </div>
         </nav>
     </section>
+    
+    <main class="main">
+        <nav class="menu__nav menu__nav-desktop">
+            <h2>Menu</h2>
+            
+            <a class="menu__nav_link href="#">
+                <img class="menu__nav__img" src="./assets/icons/code.svg" alt="Código.">
+                Editor de códigos
+            </a>
+            <a class="menu__nav_link href="#">
+                <img class="menu__nav__img" src="./assets/icons/comunity.svg" alt="Comunidade.">
+                Comunidade
+            </a>
+        </nav>
+        
+        <section class="code">
+            <div class="code__color">
+                <div class="mac__buttons"><img src="./assets/icons/mac_buttons.svg" alt=""></div>
+                <textarea id="area-code" class="code_text" name="code"></textarea>
+            </div>
+
+            <button class="btn__code" type="button">Visualizar com o highlight</button>
+        </section>
+    </main>
     
     <script src="./js/menu-hambuger.js"></script>
 </body>

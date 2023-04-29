@@ -19,3 +19,15 @@
 hr {
     width: 100%;
 }
+
+@media screen and (min-width: 1440px) {    
+    .main {
+        display: flex;
+        column-gap: 1rem;
+        margin-top: 40px;
+    }
+
+    .code {
+        min-width: 752px;
+    }
+}

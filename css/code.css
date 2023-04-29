@@ -1,0 +1,37 @@
+.code__color {
+    border-radius: 8px;
+    background-color: aqua;
+    padding: 2rem;
+}
+
+.mac__buttons{
+    background-color: black;
+    padding: 1rem 0 0 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.code_text {
+    height: 500px;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    border: none;
+    box-sizing: border-box;
+    padding: 1.5rem 1rem 1rem 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+}
+
+.btn__code {
+    width: 100%;
+    padding: 1rem 0;
+    color: white;
+    border-radius: 8px;
+    font-family: inherit;
+    background-color: var(--color-hover);
+    margin-top: 2rem;
+}
+
+.btn__code:hover {
+    background-color: var(--color-pressed);
+}
